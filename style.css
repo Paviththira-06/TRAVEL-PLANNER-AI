@@ -62,7 +62,7 @@ li a:hover::before{
 .hero-section {
     min-height: 80vh; /* Takes up 80% of the viewport height */
     background-size: cover;
-    background-image: url(images/AI-1024x576.jpg);
+    background-image: url(assets/AI-1024x576.jpg);
     background-position: center;
     padding-top: 56px; /* Offset for fixed-top navbar */
 
