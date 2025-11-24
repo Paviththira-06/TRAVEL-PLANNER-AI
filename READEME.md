@@ -17,9 +17,9 @@ Includes:
 
 ---
 
-## 🎨 Color Palette & Font Selection
+##  Color Palette & Font Selection
 
-### 🎨 Color Palette
+###  Color Palette
 | Usage | Color |
 |-------|--------|
 | Primary Indigo | `#4F46E5` |
@@ -45,7 +45,7 @@ Bebas Neue – weight 400
 
 ---
 
-## ⭐ Features
+##  Features
 
 - ✔ Responsive UI  
 - ✔ AI-themed Home Page  
@@ -58,7 +58,7 @@ Bebas Neue – weight 400
 
 ---
 
-## 📋 Component Checklist
+##  Component Checklist
 
 | Component | Status |
 |----------|--------|
@@ -72,24 +72,24 @@ Bebas Neue – weight 400
 
 ---
 
-## 📸 Screenshots  
+##  Screenshots  
 *Placeholders (replace later)*
 
-### 🔐 Login Page  
+###  Login Page  
 ![Login Page](assets/login-screenshot.png)
 
-### 🏠 Home Page  
+###  Home Page  
 ![Home Page](assets/home-screenshot.png)
 
 ### ℹ About Page  
 ![About Page](assets/about-screenshot.png)
 
-### 📱 Mobile View  
+###  Mobile View  
 ![Mobile View](assets/mobile-screenshot.png)
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 TRAVEL-PLANNER-AI/
 │
 ├── assets/
@@ -106,7 +106,7 @@ TRAVEL-PLANNER-AI/
 
 ---
 
-## 🔗 Live GitHub Pages Link
+##  Live GitHub Pages Link
 
  **https://paviththira-06.github.io/TRAVEL-PLANNER-AI/**
 
