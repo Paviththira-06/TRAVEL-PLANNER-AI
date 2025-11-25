@@ -158,11 +158,21 @@ body {
       background: linear-gradient(to bottom right, #cbeafe, #e0f2ff);
       min-height: 90vh;
     }
-.glass-card {
+/* .glass-card {
       background: rgba(255,255,255,0.6);
       backdrop-filter: blur(8px);
       border-radius: 12px;
-    }
+    } */.login-card {
+    width: 350px;
+    padding: 30px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    text-align: center;
+    
+
+}
 
 footer {
    position: fixed;

@@ -49,26 +49,26 @@ function showResult(htmlContent) {
 }
 
 
-//gallery- Lightbox effect
-document.querySelectorAll('.lightbox').forEach(img => {
-    img.addEventListener('click', function (e) {
-        e.preventDefault();
+// //gallery- Lightbox effect
+// document.querySelectorAll('.lightbox').forEach(img => {
+//     img.addEventListener('click', function (e) {
+//         e.preventDefault();
 
-        const overlay = document.createElement('div');
-        overlay.classList.add('lightbox-overlay');
+//         const overlay = document.createElement('div');
+//         overlay.classList.add('lightbox-overlay');
 
-        const image = document.createElement('img');
-        image.src = this.href;
+//         const image = document.createElement('img');
+//         image.src = this.href;
 
-        overlay.appendChild(image);
-        document.body.appendChild(overlay);
+//         overlay.appendChild(image);
+//         document.body.appendChild(overlay);
 
-        // Close lightbox on click
-        overlay.addEventListener('click', () => {
-            overlay.remove();
-        });
-    });
-});
+//         // Close lightbox on click
+//         overlay.addEventListener('click', () => {
+//             overlay.remove();
+//         });
+//     });
+// });
 
 function loginUser(event){event.preventDefault();
     const email = document.getElementById("email").value;
