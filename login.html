@@ -9,16 +9,8 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <!-- DARK MODE BUTTON
-  <div class="theme-toggle">
-    <button id="themeBtn" class="btn btn-outline-dark">
-      <i id="themeIcon" class="bi bi-moon"></i>
-    </button>
-  </div> -->
-
-  <div class="container d-flex justify-content-center align-items-center" style="min-height: 100vh;">
-    <div class="glass-card shadow p-4" style="max-width: 380px; width: 100%;">
+  <div class="container d-flex justify-content-center align-items-center" style="min-height: 90vh;">
+    <div class="glass-card shadow p-4" style="max-width: 480px; width: 100%;">
 
       <div class="text-center mb-3">
         
@@ -37,16 +29,15 @@
           <input type="password" id="password" class="form-control" required>
         </div>
 
-        <button class="btn btn-primary w-100 mt-2">Login</button>
+        <button class="btn btn-primary w-100 mt-4 py-2">Login</button>
 
         <p id="message" class="text-center mt-3"></p>
 
-        <button type="button" class="btn btn-light w-100 mt-3 border">
+        <button type="button" class="btn btn-light w-100 mt-0 border ">
           <img 
             src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" 
             width="18" 
-            class="me-2"
-          >
+            class="me-4">
           Continue with Google
         </button>
 
@@ -59,9 +50,16 @@
     </div>
   </div>
 
-  <footer class="text-center py-3">
-    © 2025 Travel Planner
-  </footer>
+  <footer class="bg-dark text-white">
+        <div class="container text-center p-2">
+            <p>&copy; 2025 Lets Go. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="text-white"><i class="bi bi-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
 
 
   <script src="script.js"></script>
